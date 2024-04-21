@@ -1,0 +1,97 @@
+@import "style.css";
+.granit__title h3 {
+  color: #334f4c;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  text-transform: uppercase;
+}
+.granit__title {
+  display: flex;
+}
+.granit__title button {
+  visibility: hidden;
+  margin-left: 5px;
+}
+.granite-conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.granit-wrapper__item {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.granit__img img {
+  width: 260px;
+  height: 260px;
+  border-radius: 3px;
+}
+.granit__title h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  text-transform: uppercase;
+}
+.granit-about-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.granit__made {
+  color: #334f4c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@media (max-width: 720px) {
+  body.loock {
+    overflow: hidden;
+  }
+  .granit__title h3 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 24px */
+    text-transform: uppercase;
+  }
+  .granit__title {
+    margin: -15px 0 10px 0;
+  }
+  .granit-wrapper__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .granit__about {
+    display: none;
+  }
+  .granit__about p {
+    color: #334f4c;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 25.2px */
+    text-transform: uppercase;
+  }
+  .granit__title button {
+    visibility: visible;
+    margin-left: 5px;
+  }
+  .granit__made {
+    display: none;
+  }
+  .granit-about-wrapper.active .granit__about {
+    display: block;
+  }
+  .granit-about-wrapper.active .granit__made {
+    display: block;
+  }
+  .granit-about-wrapper.active .granit__title img {
+    transform: rotate(180deg);
+  }
+}
