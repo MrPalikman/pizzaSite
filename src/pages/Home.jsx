@@ -19,7 +19,7 @@ const Home = () => {
   useEffect(() => {
     setIsLoading(true);
 
-    const order = sortType.sortProperty.includes('-') ? asc : desc;
+    const order = sortType.sortProperty.includes('-') ? 'asc' : 'desc';
     fetch(
       `https://65528ae45c69a779032a28f4.mockapi.io/items?${
         isCategories > 0 ? `category=${isCategories}` : ''
