@@ -1,0 +1,222 @@
+@import "style.css";
+.content__overheadLetters {
+  margin-bottom: 40px;
+}
+.contents-wrapper--text h3 {
+  color: var(--h1, #00796b);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  text-transform: uppercase;
+}
+.contents__textEngraving h3 {
+  color: var(--h1, #00796b);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  text-transform: uppercase;
+  /* margin: 37px 0 10px 0; */
+}
+
+.contents__textEngraving h4 {
+  color: var(--h2, #334f4c);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 20px */
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+.contents__textEngraving-item {
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  margin: 37px 0 10px 0;
+}
+.content__applyingText-element {
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+.contents__textEngraving {
+  margin-bottom: 40px;
+}
+content__applyingText {
+  margin-bottom: 40px;
+}
+.content__applyingText h3 {
+  color: #00796b;
+  margin-bottom: 20px;
+}
+.content__applyingText h4 {
+  color: var(--h2, #334f4c);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.content__applyingText {
+  margin-bottom: 40px;
+}
+.content__applyingText-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.content__applyingText-item img {
+  width: 460px;
+  height: 350px;
+  margin-right: 140px;
+}
+.content__applyingText-item img {
+  border-radius: 5px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.content__overheadLetters-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.content__overheadLetters h4 {
+  color: var(--h2, #334f4c);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.content__overheadLetters-item img {
+  border-radius: 5px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 140px;
+}
+.content__overheadLetters-text {
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+.content__overheadLetters p {
+  margin-bottom: 20px;
+}
+.content__overheadLetters-item_text li::before {
+  content: "•";
+}
+.content__overheadLetters-item_text li {
+  color: var(--h2, #334f4c);
+  /* text main */
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 28px */
+  text-transform: uppercase;
+}
+.content__overheadLetters-item_img img {
+  margin-right: 140px;
+  width: 460px;
+  height: 350px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.content__overheadLetters-item_img img {
+  border-radius: 5px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.content__overheadLetters-item {
+  display: flex;
+  justify-content: space-between;
+}
+.content__exclusiveSolution-item {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.content__exclusiveSolution-item img {
+  margin-right: 140px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 1200px) {
+  .content__applyingText-item {
+    flex-direction: column;
+  }
+  .content__overheadLetters-item {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .content__overheadLetters-item_img:first-child {
+    margin-bottom: 603px;
+  }
+  .content__overheadLetters-item_text {
+    position: absolute;
+    top: 366px;
+    left: 0;
+  }
+  .content__exclusiveSolution-item {
+    flex-direction: column;
+  }
+}
+@media (max-width: 720px) {
+  .contents__textEngraving-item h3 {
+    white-space: normal;
+  }
+  .content__overheadLetters-item_img:first-child {
+    margin-bottom: 1056px;
+  }
+  .content__overheadLetters-item_text {
+    position: absolute;
+    top: 354px;
+    left: 0;
+  }
+  .content__overheadLetters-text h3 {
+    white-space: normal;
+  }
+  .content__applyingText-element {
+    white-space: normal;
+  }
+  .content__overheadLetters-item_img {
+    max-width: 460px;
+    margin: 0;
+  }
+  .content__applyingText-item {
+    max-width: 360px;
+    margin: 0;
+  }
+  .content__applyingText-item img {
+    width: 100%;
+  }
+  .content__overheadLetters-item_img img {
+    width: 100%;
+    margin: 0;
+  }
+  .content-ceramics-item img {
+    margin: 0;
+  }
+  .content__applyingText-item img {
+    margin: 0;
+  }
+  .content-ceramics-item {
+    margin: 0;
+  }
+  .content-triplex-item img {
+    margin: 0;
+  }
+}

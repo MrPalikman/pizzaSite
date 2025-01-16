@@ -1,0 +1,455 @@
+@import "style.css";
+.contents-decor h3 {
+  margin: 20px 0 10px 0;
+  color: #334f4c;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  text-transform: uppercase;
+}
+.contents-decor {
+  display: block;
+  margin-top: 40px;
+  margin: 40px 0 33px 0;
+}
+.content_picture {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.content_picture-item {
+  display: flex;
+  flex-direction: column;
+}
+.content_picture-item img {
+  width: 460px;
+  height: 460px;
+  border-radius: 5px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+  /* shad im */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.content_picture-item span {
+  color: #334f4c;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.portrait_engraving {
+  margin: 40px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+.portrait_engraving h3 {
+  color: #00796b;
+  margin: 0;
+}
+.content_processEngraving {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.content_processEngraving h3 {
+  margin: 0 0 10px 0;
+}
+.content_processEngraving-item {
+  display: flex;
+  flex-direction: column;
+}
+.content_processEngraving-item img {
+  margin: 0 0 0 40px;
+  width: 460px;
+  height: 350px;
+  border-radius: 5px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.content_answerAndQuestion-title h3 {
+  margin-top: 30px;
+}
+.advantagesOfEngraving-title {
+  display: flex;
+  justify-content: space-between;
+}
+.content_advantagesOfEngraving {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.content_advantagesOfEngraving-item img {
+  width: 460px;
+  height: 350px;
+  margin: 91px 0 0 40px;
+  border-radius: 5px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.line_advantages {
+  width: 30px;
+  margin-top: 12px;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 1.5px solid #ffffff;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+  height: 0px;
+  border-radius: 2px solid;
+}
+.content_answerAndQuestion-title {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+.content_answerAndQuestion-item button {
+  visibility: hidden;
+  display: none;
+}
+.content_answerAndQuestion-title h3 {
+  color: #00796b;
+  margin: 0;
+}
+.linkPortrait {
+  display: flex;
+}
+.linkPortrait a {
+  margin: 20px 0 10px 20px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.64);
+}
+.linkPortrait img {
+  margin-left: 16px;
+}
+.content_medallionsOnMonument {
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  margin: 30px 0 20px 0;
+}
+.content_medallionsOnMonument h3 {
+  margin: 0;
+  color: #00796b;
+}
+.content_picture {
+  position: relative;
+  margin-bottom: 20px;
+}
+.content_picture-medallion img {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.content_medallionsOnMonument-list__item {
+  display: flex;
+  color: var(--h2, #334f4c);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 28px */
+  text-transform: uppercase;
+}
+.content_metalCeramics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.content_medallionsOnMonument-list {
+  margin: 10px 0 0 0;
+}
+.content-metalCeramics-item p {
+  margin-right: 80px;
+}
+.content-metalCeramics-item img {
+  width: 320px;
+  height: 454px;
+}
+.content-ceramics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.content-ceramics img {
+  width: 360px;
+  height: 447px;
+  margin-right: 40px;
+}
+.content-ceramogranit-item h3{
+  margin: 0 0 10px 0;
+  
+}
+.content-ceramogranit {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.content-ceramogranit p {
+  margin-right: 37px;
+}
+.content-ceramogranit img {
+  width: 360px;
+  height: 311px;
+  border-radius: 5px;
+  background: url(<path-to-image>),
+    lightgray -7.283px -14.611px / 102.023% 118.456% no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.content-triplex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.content-triplex-item h3 {
+  margin: 0;
+}
+.content-triplex-item img {
+  margin-right: 40px;
+  width: 360px;
+  height: 360px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.content-mountMedallion {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.content-mountMedallion-list {
+  max-width: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+.content-mountMedallion-img {
+  max-width: 460px;
+  height: 460px;
+  margin-bottom: 10px;
+}
+.content-mountMedallion-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 5px;
+  background: url(<path-to-image>),
+    lightgray -0.355px 0px / 171.914% 124.33% no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1200px) {
+  body.loock {
+    overflow: hidden;
+  }
+  .content_answerAndQuestion-title h3 {
+    white-space: nowrap;
+    display: block;
+    /* margin-bottom: 10px; */
+  }
+  .content_picture {
+    flex-direction: column;
+  }
+  .content_processEngraving {
+    flex-direction: column;
+  }
+  .content_advantagesOfEngraving {
+    flex-direction: column-reverse;
+  }
+  .content-mountMedallion {
+    flex-direction: column;
+  }
+}
+@media (max-width: 720px) {
+  .section {
+    padding: 5px;
+  }
+  .content_metalCeramics {
+    flex-direction: column;
+  }
+  .content-ceramics {
+    flex-direction: column;
+  }
+  .content-ceramogranit {
+    flex-direction: column;
+  }
+  .content-triplex {
+    flex-direction: column;
+  }
+  .portrait_engraving {
+    white-space: normal;
+  }
+  .content_processEngraving-item img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .content_advantagesOfEngraving-item img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .linkPortrait {
+    flex-direction: column;
+  }
+  .linkPortrait h3 {
+    margin: 0;
+  }
+  .content_medallionsOnMonument {
+    white-space: normal;
+  }
+  .content_picture-item img {
+    width: 100%;
+    height: 100%;
+  }
+  .content-metalCeramics-item p {
+    margin: 0;
+  }
+  .content-ceramogranit-item p {
+    margin: 0;
+  }
+  .content_answerAndQuestion-item button {
+    visibility: visible;
+    display: block;
+  }
+  .content_answerAndQuestion-item__answer {
+    display: none;
+  }
+  .content_answerAndQuestion-item__wrapper.active
+    .content_answerAndQuestion-item__answer {
+    display: block;
+  }
+  .content_answerAndQuestion-item__wrapper.active button {
+    transform: rotate(180deg);
+  }
+  .content_answerAndQuestion-item__wrapper-title {
+    display: flex;
+  }
+  .content_answerAndQuestion-item__wrapper-title {
+    padding-top: 4px;
+  }
+  .content_answerAndQuestion-item__wrapper-title img {
+    margin-bottom: -25px;
+  }
+  .content_answerAndQuestion-title {
+    margin: 20px 0 0 0;
+  }
+  .content_answerAndQuestion-item__wrapper-title h3 {
+    margin: 10px 0 10px 0;
+  }
+  .linkPortrait a {
+    margin: 11px 0 0 180px;
+  }
+  .content_medallionsOnMonument .line__container {
+    display: none;
+  }
+  .content_medallionsOnMonument {
+    margin: 20px 0 10px 0;
+  }
+  .content_picture-medallion img {
+    margin-bottom: 10px;
+  }
+  .portrait_engraving .line__container {
+    display: none;
+  }
+  .portrait_engraving {
+    margin: 20px 0 10px 0;
+  }
+  .content_processEngraving {
+    position: relative;
+  }
+  .content_processEngraving-item h3 {
+    margin-bottom: 292px;
+  }
+  .content_processEngraving-item img {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    width: 360px;
+    height: 272px;
+  }
+  .advantagesOfEngraving-title:last-of-type {
+    margin-bottom: 263px;
+  }
+  .content_advantagesOfEngraving-item {
+    position: relative;
+  }
+  .content_advantagesOfEngraving-item img {
+    position: absolute;
+    top: 420px;
+    left: 0;
+    width: 360px;
+    height: 273px;
+  }
+  .content_advantagesOfEngraving-item h3 {
+    margin: 20px 0 10px 0;
+  }
+  .content_processEngraving .content_metalCeramics {
+    position: relative;
+  }
+  .content-metalCeramics-item h3 {
+    margin-bottom: 474px;
+  }
+  .content-metalCeramics-item img {
+    position: absolute;
+    top: 43px;
+    left: 0;
+    width: 320px;
+    height: 454px;
+  }
+
+  .content-ceramics {
+    position: relative;
+    margin-bottom: 0;
+  }
+  .content_metalCeramics {
+    position: relative;
+  }
+  .content-ceramics-item img {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 360px;
+    height: 447px;
+  }
+  .content-ceramics-item h3 {
+    margin-bottom: 427px;
+  }
+  .content-ceramogranit {
+    position: relative;
+  }
+  .content-ceramogranit img {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    width: 360px;
+    height: 311px;
+  }
+  .content-ceramogranit h3 {
+    margin-bottom: 331px;
+  }
+  .content-triplex {
+    position: relative;
+  }
+  .content-triplex h3 {
+    margin-bottom: 416px;
+  }
+  .content-triplex img {
+    position: absolute;
+    top: 54px;
+    left: 0;
+  }
+  .content-mountMedallion {
+    margin-bottom: 0;
+  }
+}

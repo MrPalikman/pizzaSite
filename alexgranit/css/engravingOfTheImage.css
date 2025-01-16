@@ -1,0 +1,115 @@
+.contentEngravingList{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.contents-engraving_title{
+  display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    margin: 37px 0 30px 0;
+}
+.contents-engraving_title h3{
+  color: var(--h1, #00796b);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.contentEngravingList__img{
+  border-radius: 5px;
+}
+.contentEngravingList__img img{
+  max-width: 460px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.contentEngravingList__text{
+  margin-bottom: 30px;
+}
+.contentEngravingList__picture{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.contentEngravingList__picture-img {
+  max-width: 300px;
+}
+.contentEngravingList__picture-img img{
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.contentEngravingList__bigPicture{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.contentEngravingList__bigPicture-img{
+  max-width: 460px;
+  height: auto;
+}
+.contentEngravingList__bigPicture-img img{
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contentEngravingList__imgText{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.contentEngravingList__imgText-img {
+  margin-right: 40px;
+  
+}
+.contentEngravingList__imgText-img img{
+  max-width: 460px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 1200px){
+
+  .contents-engraving_title{
+    white-space: wrap;
+  }
+
+  .contentEngravingList {
+    flex-direction: column;
+  }
+  .contentEngravingList__picture{
+    flex-direction: column;
+  }
+  .contentEngravingList__bigPicture{
+    flex-direction: column;
+  }
+  .contentEngravingList__imgText{
+    flex-direction: column;
+  }
+}
+@media (max-width: 719px){
+  .contentEngravingList__img img{
+    max-width: 360px;
+  }
+  .contentEngravingList__picture-img{
+    max-width: 360px;
+  }
+  .contentEngravingList__bigPicture-img img {
+    max-width: 360px;
+  }
+  .contentEngravingList__imgText-img img{
+    max-width: 360px;
+  }
+}
+
+@media(max-width:360px){
+  .content-epitaphs_title{
+    white-space: wrap;
+  }
+  .line__container{
+    display: none;
+  }
+}
+
+
